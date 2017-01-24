@@ -73,6 +73,12 @@
 		"oAP": "\/css\/bootstrap.min.css.map",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/fonts\/glyphicons-halflings-regular.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -136,6 +142,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/npm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/script-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
