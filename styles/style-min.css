@@ -1,24 +1,98 @@
 body {
- background-color: #093042;
- padding: 18px 36px;
+    background-color: #093042;
+    padding: 18px 36px;
+    color: white;
+    font-family: "ff-speak-web", helvetica, arial, sans-serif;
+
 }
 h1 {
-  color: white;
-  font-family: 	"ff-speak-web";
-  font-size: 1.7em;
-  font-weight: normal;
+    font-family: "alternate-gothic-no-2-d", helvetica, arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .65;
+    border-bottom: 1px solid white;
+}
+h2 {
+    font-family: "alternate-gothic-no-2-d", helvetica, arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    opacity: .55;
+    text-transform: uppercase;
+    margin: 36px 0px -6px 0px;
+    clear: both;
+    border-bottom: 1px solid white;
+}
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 12px 0px -6px 0px;
+}
+h4 {
+    font-family: "alternate-gothic-no-2-d", helvetica, arial, sans-serif;
+    font-size: .8em;
+    opacity: .55;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 24px 0px -6px 0px;
 }
 p {
-  color: white;
-  opacity: .5;
-  font-family: 	"ff-speak-web";
-  font-size: .9em;
-  line-height: 0.15em;
+    color: white;
+    opacity: .95;
+    font-size: .95em;
+    line-height: 1.2em;
+}
+header p {
+    line-height: .3em;
 }
 a:link {
   color: white;
   opacity: 1;
   text-decoration: none;
+}
+dl:first-of-type {
+    width: 175px;
+    float: left;
+    padding-bottom: 21px;
+}
+dl:last-of-type {
+    width: 400px;
+    float: left;
+}
+dt {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+dd {
+    font-size: .95em;
+    line-height: 1.2em;
+}
+dd:nth-child(-n+4) {
+    width: 100px;
+    float: left;
+}
+dd:nth-last-child(-n+3) {
+    width: 100px;
+    float: left;
+}
+ul {
+
+}
+li {
+    list-style-type: circle;
+    padding-bottom: .6em;
+    font-size: .95em;
+    line-height: 1.2em;
+    padding-bottom: 12px;
+}
+header {
+    width: 640px;
+    margin: auto;
+}
+article {
+    width: 640px;
+    margin: auto;
 }
 .tag {
   font-size: 1.1em;
